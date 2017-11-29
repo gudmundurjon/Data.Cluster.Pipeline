@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Cluster.Pipeline.App", "Data.Cluster.Pipeline.App\Data.Cluster.Pipeline.App.csproj", "{936C2DEE-BE1F-43EE-A828-7651E4599C61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Emulators", "Emulators", "{49AD0DBA-DD30-4EF0-93C6-8D1E4BA9F51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueDataGenerator", "QueueDataGenerator\QueueDataGenerator.csproj", "{587F39D7-337B-40ED-9DC7-7FCBA4311381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Cluster.Pipeline.Shared", "Data.Cluster.Pipeline.Model\Data.Cluster.Pipeline.Shared.csproj", "{11BC1F7C-DD3B-4E5B-97FD-D22FA040FE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{936C2DEE-BE1F-43EE-A828-7651E4599C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936C2DEE-BE1F-43EE-A828-7651E4599C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936C2DEE-BE1F-43EE-A828-7651E4599C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936C2DEE-BE1F-43EE-A828-7651E4599C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587F39D7-337B-40ED-9DC7-7FCBA4311381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587F39D7-337B-40ED-9DC7-7FCBA4311381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587F39D7-337B-40ED-9DC7-7FCBA4311381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587F39D7-337B-40ED-9DC7-7FCBA4311381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BC1F7C-DD3B-4E5B-97FD-D22FA040FE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BC1F7C-DD3B-4E5B-97FD-D22FA040FE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BC1F7C-DD3B-4E5B-97FD-D22FA040FE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BC1F7C-DD3B-4E5B-97FD-D22FA040FE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{587F39D7-337B-40ED-9DC7-7FCBA4311381} = {49AD0DBA-DD30-4EF0-93C6-8D1E4BA9F51E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B2CC8F-E307-471E-B6BD-CDF464B3E6F1}
+	EndGlobalSection
+EndGlobal
